@@ -2,9 +2,9 @@
 
 ## Assignment 3 – Record Manager Implementation
 
-**Student:**<BR>
-Meghana Rabba                   A20572009<BR>
-Rohan Singh Rajendra Singh      A20572007<BR>
+**Student:**  
+Meghana Rabba (A20572009)  
+Rohan Singh Rajendra Singh (A20572007)  
 **Course:** CS525 (Fall 2025)
 
 ## A. Objective
@@ -292,3 +292,39 @@ c. **Primary Key Enforcement:** Done before insert or update by scanning all pag
 d. **Buffer Management Integration:** All page modifications are done through pin/markDirty/unpin workflow to guarantee write consistency.  
 e. **Defensive Memory Handling:** Every allocation and pointer dereference is validated.  
 f. **Modularity:** Helper functions isolate offset and slot calculations, keeping core APIs concise and error-free.
+
+## F. Testing Instructions
+
+To run the test cases, follow these steps in terminal:
+
+```bash
+make clean
+make test
+./test_assign3_1
+```
+
+To check if all test cases passed:
+
+```bash
+if ./test_assign3_1 | grep -q "FAILED"; then 
+  echo "Some tests failed";
+else
+  echo "All tests passed";
+fi
+```
+
+## G. Test Results
+
+All test cases in `test_assign3_1.c` passed successfully, verifying:
+<img width="1459" height="359" alt="image" src="https://github.com/user-attachments/assets/1989c30a-06a2-4d10-9da9-87b2bc6ca7c4" />
+<img width="1055" height="200" alt="image" src="https://github.com/user-attachments/assets/623974de-22e0-4f5d-8969-2a786caf784e" />
+<img width="1008" height="162" alt="image" src="https://github.com/user-attachments/assets/3c2503bf-f069-4a70-9aa7-932f845683c1" />
+
+
+
+**Submitted by:**  
+**Meghana Rabba** (A20572009)  
+**Rohan Singh Rajendra Singh** (A20572007)  
+Illinois Institute of Technology  
+CS525 – Advanced Database Organization  
+Fall 2025

@@ -4,7 +4,7 @@
 
 **Student:**<BR>
 Meghana Rabba                   A20572009<BR>
-Rohan Singh Rajendra Singh      A20572007
+Rohan Singh Rajendra Singh      A20572007<BR>
 **Course:** CS525 (Fall 2025)
 
 ## A. Objective

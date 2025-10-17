@@ -3,7 +3,7 @@
 ## Assignment 3 – Record Manager Implementation
 
 **Student:**
-Meghana Rabba                   A20572009
+Meghana Rabba                   A20572009<BR>
 Rohan Singh Rajendra Singh      A20572007
 **Course:** CS525 (Fall 2025)
 

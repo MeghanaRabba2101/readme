@@ -300,16 +300,28 @@ To run the test cases, follow these steps in terminal:
 ```bash
 make clean
 make test
-./test_assign3_1
+make test1
 ```
 
-To check if all test cases passed:
+To check if all test cases passed
+1)For test_assign3_1 test cases file
 
 ```bash
-if ./test_assign3_1 | grep -q "FAILED"; then 
-  echo "Some tests failed";
+ make test_assign3                            
+if ./test_assign3 | grep -q "FAILED"; then
+  echo " Some tests failed in test_assign3_1"  
 else
-  echo "All tests passed";
+  echo " All tests passed in test_assign3_1"  
+fi
+```
+1)For test_expr test cases file
+
+```bash
+ make test_expr                          
+if ./test_expr | grep -q "FAILED"; then
+  echo " Some tests failed in test_assign3_1"  
+else
+  echo " All tests passed in test_assign3_1"  
 fi
 ```
 
@@ -318,10 +330,12 @@ fi
 All test cases in `test_assign3_1.c` passed successfully, verifying:
 <img width="1459" height="359" alt="image" src="https://github.com/user-attachments/assets/1989c30a-06a2-4d10-9da9-87b2bc6ca7c4" />
 <img width="1055" height="200" alt="image" src="https://github.com/user-attachments/assets/623974de-22e0-4f5d-8969-2a786caf784e" />
-<img width="1008" height="162" alt="image" src="https://github.com/user-attachments/assets/3c2503bf-f069-4a70-9aa7-932f845683c1" />
+<img width="1294" height="587" alt="image" src="https://github.com/user-attachments/assets/640f1643-a1e5-4aec-82d7-d53597d3a5b0" />
+<img width="984" height="178" alt="image" src="https://github.com/user-attachments/assets/a69971d8-cfe8-49f7-8230-5e3e42c2dc00" />
+<img width="1033" height="155" alt="image" src="https://github.com/user-attachments/assets/e54f98ca-fe1f-45f1-a062-95fffec9efa0" />
 
 LINK TO VIDEO:
-
+https://www.loom.com/share/b146bfcdad024cfaaccf80fdbd9c2f7a
 
 **Submitted by:**  
 **Meghana Rabba** (A20572009)  
